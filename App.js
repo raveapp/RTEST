@@ -16,6 +16,7 @@ export default class rave3 extends Component {
 
         }
     }
+
         getLocation = async () => {
 
             navigator.geolocation.getCurrentPosition(
